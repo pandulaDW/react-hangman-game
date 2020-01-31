@@ -1,0 +1,30 @@
+.Letter {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+
+  p {
+    font-size: 30px;
+    color: white;
+    padding: 3px 12px;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 11px 1px 0px rgba(224, 90, 0, 0.92);
+    flex: 0 0 20%;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+      background-color: rgb(255, 136, 0);
+      box-shadow: 0px 11px 1px 0px rgba(143, 57, 0, 0.92);
+    }
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: 0px 1px 1px 0px rgba(143, 57, 0, 0.92);
+    }
+  }
+}

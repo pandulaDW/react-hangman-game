@@ -1,0 +1,34 @@
+.Hangman {
+  width: 500px;
+  position: relative;
+
+  img {
+    height: 300px;
+  }
+}
+
+.Hangman__images {
+  position: absolute;
+  content: "";
+  height: 60%;
+  width: 40%;
+  top: 18%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  img {
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+
+  // &--odd {
+  //   justify-self: end;
+  // }
+}

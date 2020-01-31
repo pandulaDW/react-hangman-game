@@ -1,0 +1,13 @@
+.Words {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.word {
+  width: 40px;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 30px;
+  padding: 2px;
+}
