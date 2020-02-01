@@ -26,13 +26,19 @@ class Hangman extends React.Component {
     let arr1 = arr.slice(0, count);
     let arr2 = arr.slice(count);
     arr1 = arr1.map((el, id) => (
-      <img src={this.imgObj[`hangman${id + 1}`]} alt="" className="visible" />
+      <img
+        src={this.imgObj[`hangman${id + 1}`]}
+        alt=""
+        className="visible"
+        key={uuid()}
+      />
     ));
     arr2 = arr2.map((el, id) => (
       <img
         src={this.imgObj[`hangman${id + count + 1}`]}
         alt=""
         className={null}
+        key={uuid()}
       />
     ));
     return [...arr1, ...arr2];
@@ -43,9 +49,7 @@ class Hangman extends React.Component {
     return (
       <div className="Hangman">
         <img src={noose} alt="" />
-        <div className="Hangman__images" key={uuid()}>
-          {imgComponent}
-        </div>
+        <div className="Hangman__images">{imgComponent}</div>
       </div>
     );
   }
