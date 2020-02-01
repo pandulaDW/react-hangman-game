@@ -98,6 +98,7 @@ class App extends React.Component {
             <div className="letter-set" />
             <Letters
               handleClick={this.handleClick}
+              clickedLetter={this.state.clickedLetter}
               clickedCount={this.state.clickedCount}
             />
           </div>

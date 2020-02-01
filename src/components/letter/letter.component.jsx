@@ -8,11 +8,21 @@ class Letters extends React.Component {
     const alphabet = "abcdefghijklmnopqrstuvwxyz";
     return (
       <div className="Letter">
-        {alphabet.split("").map(el => (
-          <p key={uuid()} onClick={this.props.handleClick.bind(el)}>
-            {el}
-          </p>
-        ))}
+        {alphabet.split("").map((el, id, arr) => {
+          const idx = arr.indexOf(this.props.clickedLetter);
+          let visitedClass = null;
+          if (idx === id) visitedClass = "visited";
+          console.log(visitedClass);
+          return (
+            <p
+              className={`letter-button ${visitedClass}`}
+              key={uuid()}
+              onClick={this.props.handleClick.bind(el)}
+            >
+              {el}
+            </p>
+          );
+        })}
       </div>
     );
   }
