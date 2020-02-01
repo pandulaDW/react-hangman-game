@@ -5,12 +5,18 @@
   background-image: url("./imgs/background.jpg");
   background-size: cover;
   background-position: center;
-  padding-top: 20%;
 }
 
 .game {
   /* height: 50%; */
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
+}
+
+.game-left {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
