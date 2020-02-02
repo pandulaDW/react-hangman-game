@@ -15,7 +15,7 @@ class Letters extends React.Component {
           console.log(visitedClass);
           return (
             <p
-              className={`letter-button ${visitedClass}`}
+              className={`letter-button letter-button-${id} ${visitedClass}`}
               key={uuid()}
               onClick={this.props.handleClick.bind(el)}
             >
