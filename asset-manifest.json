@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-hangman-game/static/css/main.12cc93a3.chunk.css",
+    "main.js": "/react-hangman-game/static/js/main.80ec516a.chunk.js",
+    "main.js.map": "/react-hangman-game/static/js/main.80ec516a.chunk.js.map",
+    "runtime-main.js": "/react-hangman-game/static/js/runtime-main.396876c1.js",
+    "runtime-main.js.map": "/react-hangman-game/static/js/runtime-main.396876c1.js.map",
+    "static/js/2.34117433.chunk.js": "/react-hangman-game/static/js/2.34117433.chunk.js",
+    "static/js/2.34117433.chunk.js.map": "/react-hangman-game/static/js/2.34117433.chunk.js.map",
+    "index.html": "/react-hangman-game/index.html",
+    "precache-manifest.0b06fc0416fcf5069494e78290e00adb.js": "/react-hangman-game/precache-manifest.0b06fc0416fcf5069494e78290e00adb.js",
+    "service-worker.js": "/react-hangman-game/service-worker.js",
+    "static/css/main.12cc93a3.chunk.css.map": "/react-hangman-game/static/css/main.12cc93a3.chunk.css.map",
+    "static/js/2.34117433.chunk.js.LICENSE": "/react-hangman-game/static/js/2.34117433.chunk.js.LICENSE",
+    "static/media/App.css": "/react-hangman-game/static/media/background.81cffcb2.jpg",
+    "static/media/hangman3.png": "/react-hangman-game/static/media/hangman3.8c7aacdd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.396876c1.js",
+    "static/js/2.34117433.chunk.js",
+    "static/css/main.12cc93a3.chunk.css",
+    "static/js/main.80ec516a.chunk.js"
+  ]
+}
